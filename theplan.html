@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Victoria & Stefan</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Favicon -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Favicon -->
+
+</head>
+
+<body>
+
+
+
+
+	<!--
+      <div class="menucontainer">
+
+      	<div class="dropdown">
+      	  <button onclick="myFunction()" class="menucontainer">
+
+      <div class="menubartop"></div>
+      <div class="menubarmid"></div>
+      <div class="menubarbot"></div>
+
+      </button>
+
+
+          </div>
+          </div>
+
+
+          </div>
+
+
+
+      <div id="myDropdown" class="dropdown-content">
+      	<a href="http://www.thebezzants.com/">Home</a>
+      	<a href="http://www.thebezzants.com/ThePlan.html">The Plan</a>
+      	<a href="http://www.thebezzants.com/Travel.html">Travel</a>
+      	<a href="http://www.thebezzants.com/7Years.html">7 Years</a>
+      	<a href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a>
+
+      <script>
+      /* When the user clicks on the button,
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.menucontainer')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+-->
+
+
+
+	<a href="http://www.thebezzants.com/">
+		<h1>Victoria & Stefan</h1>
+	</a>
+
+
+	<div id="firstLillibrooke">
+		<h2> Lillibrooke Manor, Maidenhead </h2>
+
+	</div>
+
+
+
+	<h2 id="secondHeading">The Plan</h2>
+
+	<hr class="secondUnderHeading">
+
+	<p class="thirdText">
+		If you're a guest to the daytime celebrations
+		please enter the password below from your invite<br><br>
+    If you're joining us for the evening please refer to the
+		<a class="fifthMap" href="http://www.thebezzants.com/Travel.html">Travel</a> &
+		<a class="fifthMap" href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a> pages
+	</p>
+
+	<!-- <hr class="secondMidText"> -->
+
+	<br>
+
+
+	<input id="pwdText">
+<br><br>
+	<button type="submit" onclick="myFunction()">To The Plan!</button>
+
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+  var x, text;
+
+
+  x = document.getElementById("pwdText").value;
+
+
+  if (x == "Bezzant2020")
+  {
+    text = "Yay!";
+window.location.href="http://www.thebezzants.com/TheDayPlan.html";
+}
+
+  else {
+    text = "Wrong Password";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+	</script>
+
+
+</body>
+
+</html>

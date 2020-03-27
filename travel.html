@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Victoria & Stefan</title>
+	<!-- Favicon -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Favicon -->
+
+</head>
+
+<body>
+
+	<div class="menucontainer">
+
+		<div class="dropdown">
+			<button onclick="myFunction()" class="menucontainer">
+
+<div class="menubartop"></div>
+<div class="menubarmid"></div>
+<div class="menubarbot"></div>
+
+</button>
+
+
+
+			<div id="myDropdown" class="dropdown-content">
+				<a href="http://www.thebezzants.com/">Home</a>
+				<a href="http://www.thebezzants.com/ThePlan.html">The Plan</a>
+				<a href="http://www.thebezzants.com/Travel.html">Travel</a>
+				<a href="http://www.thebezzants.com/7Years.html">7 Years</a>
+				<a href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a>
+			</div>
+		</div>
+
+
+	</div>
+	<script>
+		/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.menucontainer')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+	</script>
+
+	<a href="http://www.thebezzants.com/">
+		<h1>Victoria & Stefan</h1>
+	</a>
+
+
+	<div id="firstLillibrooke">
+		<h2> Lillibrooke Manor, Maidenhead </h2>
+
+	</div>
+
+
+	<h2 id="secondHeading">Travel</h2>
+
+	<hr class="secondUnderHeading">
+	<br>
+	<img src="images/parking.png" class="secondIcons">
+
+	<h2 class="secondTitle">Parking, Travel & Taxi's</h2>
+
+	<p class="thirdText">There is ample parking at the venue
+		and your car can be left overnight,
+		they just need to be collected between 8am-11am the following day.
+		<br><br>Please use the postcode SL6 3AD to find the venue.
+		<br><br>
+If you are drinking and need to get to the hotel, there are taxi companies recommended by the venue.
+		<br>
+		<br>U Want Taxis Telephone: <a class="tel" href="tel:01628 622110">01628 622110</a>
+		<br>
+		<br>Riviera Cars Telephone: <a class="tel" href="tel:01628 666777">01628 666777</a></p>
+
+	<hr class="secondMidText">
+	<br>
+	<img src="images/trolley.png" class="secondIcons">
+
+	<h2 class="secondTitle">Hotels</h2>
+
+	<p class="thirdText">We recommend using 'The Holiday Inn Maidenhead'.
+		<br>This is the closest and best value for money. It is under 2 miles from the venue and a 5 minute taxi ride.
+
+		<br><br>Manor Lane, Berkshire, Maidenhead SL6 2RA<br><br>
+
+There is also the 'Travel lodge Maidenhead Central'.
+		<br>This is a little further but still under 3 miles and a 10 minute taxi ride.
+
+		<br><br>99 King St, Maidenhead SL6 1DP</p>
+
+		<hr class="secondMidText">
+		<br>
+
+
+		<div class="bottomborderSecond">
+
+
+			<script type="text/javascript">
+				today = new Date();
+
+	BigDay = new Date("July 02, 2020");
+	msPerDay = 24 * 60 * 60 * 1000 ;
+	timeLeft = (BigDay.getTime() - today.getTime());
+	e_daysLeft = timeLeft / msPerDay;
+	daysLeft = Math.floor(e_daysLeft);
+	e_hrsLeft = (e_daysLeft - daysLeft)*24;
+	hrsLeft = Math.floor(e_hrsLeft);
+	minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+	document.write("<p>There are only <b>" + daysLeft + " days </b> until the big day!</p>");
+			</script>
+
+
+
+		</div>
+
+
+
+		<!--Image from rawpixel.com-->
+
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Muli:300i,400,400i|Playfair+Display:400,400i,700i|Quicksand&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
+
+
+body {
+background-color: white;
+text-align: center;
+margin: 0;
+}
+
+h1  {
+  color: black;
+  font-size: 50px;
+  font-family: "dancing script", sans-serif;
+  padding: 0px;
+  line-height: 0;
+  display: inline-block;
+  position: relative;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+font-family: 'Alex Brush', cursive;
+font-weight: lighter;
+
+}
+
+p {
+  font-family: "Playfair Display", serif;
+
+}
+
+
+
+.menucontainer {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  top: 2%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 45px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 20px 120px;
+  text-decoration: none;
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  border-radius: 25px;
+  white-space: nowrap;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(249, 198, 207);
+  color: white;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.menubartop {
+
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 30px;
+}
+
+.menubarmid {
+
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 30px;
+}
+
+.menubarbot {
+
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 30px;
+}
+
+
+
+
+#firstLillibrooke  {
+  text-align: left;
+  font-size: 10px;
+  color: gray;
+  padding-left: 5%;
+  padding-top: 0;
+}
+
+#firstWeregettingmarried  {
+padding-top: 0.1%;
+padding-bottom: 70%;
+  background-image: url(../images/toristefan.jpg);
+  background-attachment: scroll;
+  background-size: 100%auto;
+  background-repeat: no-repeat;
+
+}
+
+#toptext {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 330%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px rgb(75, 75, 75);
+    min-width: 350px;
+    line-height: 85%;
+
+
+}
+
+
+/*
+#firstNames {
+  margin-top: 1px;
+  padding: 2%;
+  background-image: url(../images/pinksplat.png);
+  background-attachment: scroll;
+  background-size: 75%auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+*/
+
+#firstDate {
+  font-size: 50px;
+  color: rgb(75, 75, 75);
+}
+
+#firstTheproposal {
+  margin: auto;
+  border: auto;
+  padding: 15%;
+  background-image: url('../images/pinkyellow.png');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.firstProposalTitle {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  padding-top: 10px;
+  color: rgb(75, 75, 75);
+}
+
+.firstNamesText {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgb(75, 75, 75);
+}
+
+/*
+.textbox {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+
+  max-width: inherit;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+*/
+
+.textbox {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: rgb(75, 75, 75);
+  max-width: inherit;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.firstRiviera {
+  font-size: 45px;
+  line-height: 10%;
+  color: rgb(75, 75, 75);
+
+
+}
+
+.bottomborder {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(249, 198, 207);
+  padding: 1px;
+  margin-top: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+.bottomborderFirst {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(249, 198, 207);
+  padding: 1px;
+  margin-top: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+.bottomborderSecond {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(249, 198, 207);
+  padding: 1px;
+  margin-top: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* PAGE 2 - The Plan */
+
+
+#secondHeading {
+  font-size: 55px;
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+  line-height: 60%;
+}
+
+.secondTitle {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: rgb(75, 75, 75);
+
+
+}
+
+.secondTopText {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+  line-height: 110%;
+}
+
+.secondBottomText {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+
+}
+
+hr.secondUnderHeading {
+  border: 1.5px solid rgb(249, 198, 207);
+  border-radius: 50px;
+  width: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+hr.secondMidText {
+  border: 1px solid rgb(249, 198, 207);
+  border-radius: 25px;
+  width: 185px;
+
+}
+
+
+.secondIcons {
+  width: 45px;
+  height: auto;
+}
+
+/* Third Page */
+
+.thirdTopColor {
+  background-color: rgb(249, 198, 207);
+}
+
+.thirdText {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+  max-width: inherit;
+  text-align: center;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+a.tel:link {color: rgb(75, 75, 75);}
+a.tel:visited {color:rgb(75, 75, 75);}
+a.tel:hover {color:rgb(249, 198, 207);}
+
+/* Fourth Page */
+
+.fourthRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.fourthColumn {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.fourthColumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 810px) {
+  .fourthColumn {
+    flex: 50%;
+    max-width: 48.5%;
+  }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .fourthColumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.bottomborderFourth {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(249, 198, 207);
+  padding: 1px;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* Fifth Page */
+
+.fifthText {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+  max-width: inherit;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+
+  a.fifthMap:link {color: rgb(75, 75, 75); text-decoration: none;}
+  a.fifthMap:visited {color:rgb(75, 75, 75);}
+  a.fifthMap:hover {color:rgb(249, 198, 207);}
+
+
+
+
+@media screen and (max-width: 1400px) {
+ #toptext  {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+@media screen and (max-width: 1400px) {
+ .textbox {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}
+
+
+input[id^=pwdText] {
+    width: 40%;
+    height: 30%;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    color: rgb(75, 75, 75);
+    border-radius: 6px;
+    border: 2px solid rgb(249, 198, 207);
+    margin-top: 25px;
+}
+
+input[id^=pwdText]:hover {
+    border: 2px ridge rgb(249, 198, 207);
+}
+
+
+button[type="submit"]{
+width: 40%;
+background-color: rgb(249, 198, 207);
+color: rgb(75,75,75);
+border-radius: 6px;
+border-color: rgb(249, 198, 207);
+font-family: "Playfair Display", serif;
+font-size: 18px;
+margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  color: #fff;
+}
+
+
+
+/*
+
+
+background-image: url('../images/pinkbackground.jpg');
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+rgb(249, 198, 207)
+
+
+/*
+Ï
