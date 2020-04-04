@@ -7,7 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<title>Victoria & Stefan</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="#" type="text/css">
 
 
 	<!-- Favicon -->
@@ -37,113 +39,72 @@
 
 <body>
 
-<header>
+	<!--Header-->
 
-	<div class="menucontainer">
+	<header class="container-fluid">
+        <nav class="navbar">
+		<h1 class="v-s-header" href="http://www.thebezzants.com/">Victoria & Stefan</h1>
+		<span class="navbar-text"> Lillibrooke Manor, Maidenhead </span>
 
-		<div class="dropdown">
-			<button onclick="myFunction()" class="menucontainer">
+			<a href="http://www.thebezzants.com/">Home</a>
+			<a href="http://www.thebezzants.com/ThePlan.html">The Plan</a>
+			<a href="http://www.thebezzants.com/Travel.html">Travel</a>
+			<a href="http://www.thebezzants.com/7Years.html">7 Years</a>
+			<a href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a>
+		</nav>
 
-<div class="menubartop"></div>
-<div class="menubarmid"></div>
-<div class="menubarbot"></div>
-
-</button>
+	</header>
+	<!-- ./header -->
+	<section>
 
 
-
-			<div id="myDropdown" class="dropdown-content">
-				<a href="http://www.thebezzants.com/">Home</a>
-				<a href="http://www.thebezzants.com/ThePlan.html">The Plan</a>
-				<a href="http://www.thebezzants.com/Travel.html">Travel</a>
-				<a href="http://www.thebezzants.com/7Years.html">7 Years</a>
-				<a href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a>
-			</div>
+		<div id="firstWeregettingmarried">
+			<h5 id="toptext">We're getting married!</h5>
 		</div>
 
-	</div>
-	<script>
-		/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.menucontainer')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-	</script>
-	<a href="http://www.thebezzants.com/">
-		<h1>Victoria & Stefan</h1>
-	</a>
+		<hr class="secondUnderHeading">
+
+		<h2 class="firstNamesText">Victoria Lander</h2>
+		<h2 class="firstNamesText">&</h2>
+		<h2 class="firstNamesText">Stefan Bezzant</h2>
+
+		<hr class="secondUnderHeading">
+
+		<div id="firstDate">
+
+			<h3>July 1st 2020</h3>
+		</div>
+
+		<hr class="secondUnderHeading">
 
 
-	<div id="firstLillibrooke">
-		<h2> Lillibrooke Manor, Maidenhead </h2>
+		<div id="firstTheproposal">
 
-	</div>
+			<h2 class="firstProposalTitle">The Proposal!</h2>
 
-    </header>
+			<h3 class="firstRiviera">Riviera Maya</h3>
 
-    <section>
+			<p class="textbox">
+				On our 5 year anniversary, Stefan booked a romantic candlelit dinner on a pier over the Caribbean Sea
+				whilst
+				we were on holiday in Mexico.
+			</p>
 
+		</div>
 
-	<div id="firstWeregettingmarried">
-		<p id="toptext">We're getting married!</p>
-	</div>
-
-
-	<hr class="secondUnderHeading">
-
-	<h2 class="firstNamesText">Victoria Lander</h2>
-	<h2 class="firstNamesText">&</h2>
-	<h2 class="firstNamesText">Stefan Bezzant</h2>
-
-	<hr class="secondUnderHeading">
-
-	<div id="firstDate">
-
-		<h3>July 1st 2020</h3>
-	</div>
-
-	<hr class="secondUnderHeading">
+	</section>
 
 
-	<div id="firstTheproposal">
-
-		<h2 class="firstProposalTitle">The Proposal!</h2>
-
-		<h3 class="firstRiviera">Riviera Maya</h3>
-
-		<p class="textbox">
-			On our 5 year anniversary, Stefan booked a romantic candlelit dinner on a pier over the Caribbean Sea whilst
-			we were on holiday in Mexico.
-		</p>
-
-	</div>
-
-</section>
-
-
-<footer>
+	<footer>
 
 
 
-	<div class="bottomborderFirst">
+		<div class="bottomborderFirst">
 
 
-		<script type="text/javascript">
-			today = new Date();
+			<script type="text/javascript">
+				today = new Date();
 
 	BigDay = new Date("July 02, 2020");
 	msPerDay = 24 * 60 * 60 * 1000 ;
@@ -155,13 +116,13 @@ window.onclick = function(event) {
 	minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
 
 	document.write("<p>There are only <b>" + daysLeft + " days </b> until the big day!</p>");
-		</script>
+			</script>
 
 
 
-	</div>
+		</div>
 
-    </footer>
+	</footer>
 
 	<!-- Default Statcounter code for TheBezzants.com
 http://TheBezzants.com -->
