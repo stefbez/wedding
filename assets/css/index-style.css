@@ -4,6 +4,10 @@
 
 /* ------------------------------------------------------------ Navbar */
 
+.navbar {
+    padding-top: 0;
+}
+
 .navbar-container {
     padding: 0;
 }
@@ -11,4 +15,16 @@
 .navbar-links {
     padding-left: 16px;
     font-size: 20px;
+}
+
+.navbar-text {
+    font-size: 24px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: pink;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
 }
