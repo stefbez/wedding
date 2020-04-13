@@ -1,6 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Muli:300i,400,400i|Playfair+Display:400,400i,700i|Quicksand&display=swap&subset=latin-ext'); 
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
 
+/* ------------------------------------------------------------ Body */
+
+
+/* ------------------------------------------------------------ Colors */
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: rgb(249, 198, 207);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    outline-color: white;
+}
+
+.header-logo-text {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.header-logo-text:hover {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------ Fonts */
+
+.header-logo-text {
+    font-family: "dancing script", sans-serif;
+    font-size: 48px;
+}
+
+.navbar-links {
+    font-family: "Quicksand",sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------ Header */
+
+.header-logo {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 /* ------------------------------------------------------------ Navbar */
 
@@ -12,31 +59,14 @@
     padding: 0;
 }
 
-.navbar-links {
-    font-family: "Muli",sans-serif;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
-
-.header-logo {
-    text-align: center;
-}
-
-.header-logo-text {
-    font-family: "dancing script", sans-serif;
-    font-size: 40px;
-}
-
-.navbar-light .navbar-nav .nav-link.active {
-    color: #fff;
-    background-color: pink;
-}
-
 .navbar-toggler {
-    margin-right: 2px;
+    margin: 2px auto;
+    border: none;
 }
 
-a.nav-link {
-    padding-top: 12px;
-    padding-bottom: 12px;
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding: 12px;
+    border-radius: 10px;
 }
+
+
