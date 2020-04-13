@@ -15,15 +15,16 @@
 .navbar-links {
     font-family: "Muli",sans-serif;
     letter-spacing: 1px;
-  
     font-size: 20px;
 }
 
-.navbar-text {
+.header-logo {
+    text-align: center;
+}
+
+.header-logo-text {
     font-family: "dancing script", sans-serif;
     font-size: 40px;
-    margin-left: 2px;
-      padding-right: 16px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
