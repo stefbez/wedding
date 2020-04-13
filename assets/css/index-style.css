@@ -5,7 +5,7 @@
 /* ------------------------------------------------------------ Navbar */
 
 .navbar {
-    padding-top: 0;
+    padding: 0;
 }
 
 .navbar-container {
@@ -13,18 +13,29 @@
 }
 
 .navbar-links {
-    padding-left: 16px;
+    font-family: "Muli",sans-serif;
+    letter-spacing: 1px;
+  
     font-size: 20px;
 }
 
 .navbar-text {
-    font-size: 24px;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: pink;
+    font-family: "dancing script", sans-serif;
+    font-size: 40px;
+    margin-left: 2px;
+      padding-right: 16px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
     color: #fff;
+    background-color: pink;
+}
+
+.navbar-toggler {
+    margin-right: 2px;
+}
+
+a.nav-link {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
