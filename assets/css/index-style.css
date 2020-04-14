@@ -28,6 +28,11 @@
     text-decoration: none;
 }
 
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
 .bg-footer {
     background-color: rgb(249, 198, 207);
 }
@@ -84,22 +89,25 @@
 
 /* ------------------------------------------------------------ Main Image */
 
-.main-image-container {
+@media(min-width: 460px) and (max-width: 780px) {
+.main-image-container-md-sm {
     height: 85vh;
 
-  background: url("../images/1.JPG") no-repeat bottom right fixed; 
+  background: url("../images/1.JPG") left top no-repeat; 
+}
+}
+
+.main-image-container-md-sm {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-
   position: relative;
+  }
 
-}
 
 
 /* ------------------------------------------------------------ Footer */
