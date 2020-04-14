@@ -82,11 +82,25 @@
     border-radius: 10px;
 }
 
-/* ------------------------------------------------------------ Carousel */
+/* ------------------------------------------------------------ Main Image */
 
-.carousel-container {
-    padding: 0;
+.main-image-container {
+    height: 85vh;
+
+  background: url("../images/1.JPG") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
 }
+
 
 /* ------------------------------------------------------------ Footer */
 
