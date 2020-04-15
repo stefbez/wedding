@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Muli:300i,400,400i|Playfair+Display:400,400i,700i|Quicksand&display=swap&subset=latin-ext'); 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Muli:300i,400,400i,500,600|Playfair+Display:400,400i,700i|Quicksand&display=swap&subset=latin-ext'); 
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
 
 /* ------------------------------------------------------------ Body */
@@ -29,7 +29,7 @@
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
     color: #fff;
 }
 
@@ -49,7 +49,21 @@
 }
 
 .navbar-links {
-    font-family: "Quicksand",sans-serif;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.main-image-text-header {
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.main-image-text-date,
+.main-image-text-place {
+    font-family: "Quicksand", sans-serif;
     letter-spacing: 4px;
     font-size: 20px;
 }
@@ -75,6 +89,7 @@
 
 .navbar-container {
     padding: 0;
+    margin-bottom: 15px;
 }
 
 .navbar-toggler {
@@ -89,7 +104,7 @@
 
 /* ------------------------------------------------------------ Main Image */
 
-@media(min-width: 460px) and (max-width: 780px) {
+@media(min-width: 415px) and (max-width: 770px) {
 .main-image-container-md-sm {
     height: 85vh;
 
@@ -107,6 +122,16 @@
   justify-content: center;
   position: relative;
   }
+
+  .main-image-text {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 12px;
+}
+
+.main-image-text-date {
+    margin-bottom: 0;
+}
 
 
 
