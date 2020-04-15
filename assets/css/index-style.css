@@ -104,6 +104,14 @@
 
 /* ------------------------------------------------------------ Main Image */
 
+@media(min-width: 770px) {
+.main-image-container-lg {
+    height: 85vh;
+
+  background: url("../images/toristefan.JPG") center no-repeat; 
+}
+}
+
 @media(min-width: 415px) and (max-width: 770px) {
 .main-image-container-md-sm {
     height: 85vh;
@@ -112,7 +120,17 @@
 }
 }
 
-.main-image-container-md-sm {
+@media(max-width: 415px) {
+.main-image-container-xs {
+    height: 85vh;
+
+  background: url("../images/toristefan.JPG") 30% no-repeat; 
+}
+}
+
+.main-image-container-lg,
+.main-image-container-md-sm,
+.main-image-container-xs {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -126,7 +144,7 @@
   .main-image-text {
     text-align: center;
     padding-bottom: 0;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .main-image-text-date {

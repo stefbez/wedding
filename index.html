@@ -55,7 +55,8 @@
 					<ul class="nav navbar-nav nav-fill navbar-links text-center mx-auto">
 						<li class="nav-item"><a class="nav-link active" href="http://www.thebezzants.com/">Home</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="http://www.thebezzants.com/ThePlan.html">The
+						<li class="nav-item"><a class="nav-link" href="#thePlanModal" data-toggle="modal"
+								data-target="#thePlanModal">The
 								Plan</a></li>
 						<li class="nav-item"><a class="nav-link"
 								href="http://www.thebezzants.com/Travel.html">Travel</a>
@@ -74,21 +75,21 @@
 	</header>
 	<!-- ./header -->
 	<!-- Main Image -->
-	
-        <div class="main-image-container-md-sm container-fluid">
-        <div class="row">
-        <div class="col-12">
-        <section class="jumbotron main-image-text">
-        <h1 class="main-image-text-header">Victoria & Stefan</h1>
-        <p class="main-image-text-date">1st July 2020</p>
-        <p class="main-image-text-place">Lillibrooke Manor, Maidenhead</p>
-        </section>
-        </div>
-        </div>
-        </div>
-	
 
-	<!-- ./Carousel -->
+	<div class="main-image-container-lg main-image-container-md-sm main-image-container-xs container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<section class="jumbotron main-image-text">
+					<h1 class="main-image-text-header">Victoria & Stefan</h1>
+					<p class="main-image-text-date">1st July 2020</p>
+					<p class="main-image-text-place">Lillibrooke Manor, Maidenhead</p>
+				</section>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ./Main Image -->
 
 	<footer class="container-fluid footer bg-footer footer-text">
 		<script type="text/javascript">
@@ -134,7 +135,50 @@ StatCounter"></a></div>
 	</noscript>
 	<!-- End of Statcounter Code -->
 
-	<!--Image from rawpixel.com-->
+	<!-- Modal -->
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="thePlanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">The Plan</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					If you're a guest to the daytime celebrations
+					please enter the password below from your invite<br><br>
+    If you're joining us for the evening please refer to the
+					<a class="fifthMap" href="http://www.thebezzants.com/Travel.html">Travel</a> &
+					<a class="fifthMap" href="http://www.thebezzants.com/TheBigQuestions.html">The Big Questions</a>
+					pages
+					<form>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" required>
+                        </div>
+					
+
+								<button type="submit" class="btn btn-success">Submit</button>
+					</form>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.Modal -->
 
 </body>
 
